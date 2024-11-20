@@ -8,6 +8,7 @@ body {
     background-color: #100031;
     color: white;
     font-size: 25px;
+    font-family: "Montserrat";
 }
 .all {
     display: grid;
@@ -36,9 +37,7 @@ body {
     display: inline-block;
     
 }
-p {
-    font-family: "Montserrat:ital";
-}
+
 .prayertime {
     background-color: #ffff;
     text-align: center;

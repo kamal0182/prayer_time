@@ -60,3 +60,37 @@ function prayertime(data){
 
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Get current date 
+
+
+setInterval(() => {
+    let currentDate = new Date();
+
+let hours = currentDate.getHours();
+let minuts = currentDate.getMinutes();
+let seconds = currentDate.getSeconds();
+
+
+seconds = seconds < 10 ? '0' + seconds : seconds;
+minuts = minuts < 10 ? '0' + minuts : minuts;
+hours = hours < 10 ? '0' + hours : hours;
+
+
+document.getElementById("hours").textContent = hours;
+document.getElementById("minutes").textContent = minuts;
+document.getElementById("seconds").textContent = seconds;
+}, 1000);
