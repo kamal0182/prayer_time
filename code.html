@@ -3,36 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Salat Time</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-    <div class="all">
-    <div>
+    <nav class="bg-slate-900 flex py-3 justify-around border-b h-16 items-center" id="navbar">
         <div>
-            <h1>Casablanca</h1>
+            <h1 class="font-['IM-Fell-Double-Pica-SC'] text-white text-xl"><a href="#">Salat Time</a></h1>
         </div>
-        <div class="todaydate">
-          <p >  jomo3a 2024-11-19 Sep</p>
-            <hr>
+        <div class="font-[Poppins]">
+            <ul class="flex text-white gap-5">
+                <li><a href="#" class="font-bold">Home</a></li>
+                <li><a href="#" class="font-light">About Us</a></li>
+                <li><a href="#" class="font-light">Contact Us</a></li>
+            </ul>
         </div>
-    </div>
-    <div class="timming">
-        <div class="containercalender">
+    </nav>
+    <main>
+        <div class="all">
+        <div>
+            <div>
+                <h1>Casablanca</h1>
+            </div>
+            <div class="todaydate">
+              <p >  jomo3a 2024-11-19 Sep</p>
+                <hr>
             </div>
         </div>
-        <div class="select">
-            <select>
-                <option value="Casablanca">Casablanca</option>
-            </select>
+        <div class="timming">
+            <div class="containercalender">
+                </div>
+            </div>
+            <div class="select">
+                <select>
+                    <option value="Casablanca">Casablanca</option>
+                </select>
+            </div>
         </div>
-    </div>
-   
-        
-      
-    </div>
-
-
+       
+            
+          
+        </div>
+    </main>    
 
     <script src="index.js"></script>
 </body>
