@@ -33,45 +33,18 @@
 
     <main class="flex justify-center align-center w-full">
       <div class="prayer-times max-w-6xl w-[40rem] flex flex-col gap-5">
-        <div
-          class="flex justify-between border border-blue-500 p-3 rounded-lg shadow-lg shadow-black"
-        >
-          <p class="    ">Fajr</p>
-          <p>6:05 PM</p>
-        </div>
-        <div
-          class="flex justify-between border border-blue-500 p-3 rounded-lg shadow-lg shadow-black"
-        >
-          <p>Chorok</p>
-          <p>6:05 PM</p>
-        </div>
-        <div
-          class="flex justify-between border border-blue-500 p-3 rounded-lg shadow-lg shadow-black"
-        >
-          <p>Dohr</p>
-          <p>6:05 PM</p>
-        </div>
-        <div
-          class="flex justify-between border border-blue-500 p-3 rounded-lg shadow-lg shadow-black"
-        >
-          <p>Asr</p>
-          <p>6:05 PM</p>
-        </div>
-        <div
-          class="flex justify-between border border-blue-500 p-3 rounded-lg shadow-lg shadow-black"
-        >
-          <p>Maghrib</p>
-          <p>6:05 PM</p>
-        </div>
-        <div
-          class="flex justify-between border border-blue-500 p-3 rounded-lg shadow-lg shadow-black"
-        >
-          <p>Isha</p>
-          <p>6:05 PM</p>
-        </div>
+
+        
       </div>
     </main>
 
+    <select name="cities" id="cities" onclick="getCity()">
+      <option id="0" value="MA">Casablanca</option>
+      <option id="1" value="FR">Paris</option>
+      <option id="2" value="SP">Madrid</option>
+      
+    </select>
+    
     <!-- <main>
       <div class="all">
         
@@ -88,5 +61,6 @@
 
     <script src="./assets/js/index.js"></script>
     <script src="./assets/js/app.js"></script>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
   </body>
 </html>

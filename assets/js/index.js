@@ -11,7 +11,7 @@ fetch(`http://api.aladhan.com/v1/calendar/2024/${new Date().getMonth()+1}?latitu
 console.log(new Date().getDate())
 Array = ["Fajr","Dhuhr","Asr","Maghrib","Isha"]
 function prayertime(data){
-    console.log(data)
+    // console.log(data)
     let pele = document.querySelector(".todaydate")
    
     let weekday = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
